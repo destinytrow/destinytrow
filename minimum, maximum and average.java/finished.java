@@ -8,7 +8,6 @@ public class finished
     float min = 0;
     float ave = 0;
     int count = 0;
-    float total = 0;
     boolean Continue = true;
  
      do {
@@ -24,7 +23,6 @@ public class finished
                   count = count + 1;
                   ave = max / count ;
                   System.out.println("The average is " + ave);
-                  total = max - min;
                   System.out.println("Would you like to continue? (true/false)");
                   Continue = input.nextBoolean(); 
                 }
